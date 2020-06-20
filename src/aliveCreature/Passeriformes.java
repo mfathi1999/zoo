@@ -3,8 +3,10 @@ package aliveCreature;
 public class Passeriformes extends Birds {
     int syrinx; // سوتک
 
-
-
+    Passeriformes(int feather, int tip, int wing, int homeotHermy, int gizzard, int syrinx) {
+        super(feather, tip, wing, homeotHermy, gizzard);
+        this.syrinx = syrinx;
+    }
 
     @Override
     public void fly() {

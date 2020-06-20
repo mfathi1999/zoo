@@ -7,7 +7,14 @@ public class Birds extends Animal{
     int homeotHermy;//خونگرم
     int gizzard;//سنگدان
 
-
+    Birds(int feather, int tip, int wing, int homeotHermy, int gizzard)
+    {
+        this.feather = feather;
+        this.tip = tip;
+        this.wing = wing;
+        this.homeotHermy = homeotHermy;
+        this.gizzard = gizzard;
+    }
     //پرواز
     public void fly()
     {
@@ -69,6 +76,6 @@ public class Birds extends Animal{
 
             System.out.println("mating !!");
         else
-            System.out.println("SingleCellular cant be mating");
+            System.out.println("SingleCellular cant mate");
     }
 }
