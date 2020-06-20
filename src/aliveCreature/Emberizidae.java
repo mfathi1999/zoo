@@ -31,8 +31,8 @@ public class Emberizidae extends Passeriformes{
     }
 
     @Override
-    public void move() {
-        super.move();
+    public void move(String location) {
+        super.move(location);
     }
 
     @Override
