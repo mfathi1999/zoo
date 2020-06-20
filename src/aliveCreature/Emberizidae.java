@@ -3,6 +3,11 @@ package aliveCreature;
 public class Emberizidae extends Passeriformes{
     int conicalBeak; // منقار مخروطی
     int species; // گونه
+    String name;
+
+    Emberizidae(String name){
+        this.name = name;
+    }
 
     @Override
     public void fly() {

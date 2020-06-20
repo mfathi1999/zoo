@@ -22,5 +22,6 @@ public class Main {
 //        System.out.println("Hello mmad!");
 //        test2 t = new test2();
 //        t.pr();
+        Emberizidae z1 = new Emberizidae("lemon");
     }
 }
