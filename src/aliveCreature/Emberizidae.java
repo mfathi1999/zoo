@@ -1,8 +1,8 @@
 package aliveCreature;
 
 public class Emberizidae extends Passeriformes{
-    private int conicalBeak; // منقار مخروطی
-    private int species; // گونه
+    int conicalBeak; // منقار مخروطی
+    int species; // گونه
 
     @Override
     public void fly() {
@@ -46,6 +46,9 @@ public class Emberizidae extends Passeriformes{
 
     public void seedEater()
     {
-
+        if(conicalBeak == 1)
+            System.out.println("Eating seed with conical beak");
+        else
+            System.out.println("Can't eat any seed");
     }
 }

@@ -43,12 +43,16 @@ public class Birds extends Animal{
 
     @Override
     public void nutrition() {
-        if(tip ==1 && gizzard ==1)
+        if(tip ==1 && gizzard ==1 && multiCellular == 1)
         {
             System.out.println("Eating seeds");
         }
+        else if(tip ==1)
+        {
+            System.out.println("Eating food such as other birds");
+        }
         else
-            System.out.println("Can't eat any seed :((");
+            System.out.println("Can't eat any seed or foods:((");
     }
 
     @Override
@@ -61,6 +65,10 @@ public class Birds extends Animal{
 
     @Override
     public void mating() {
-        System.out.println("mating !!");
+        if(multiCellular == 1)
+
+            System.out.println("mating !!");
+        else
+            System.out.println("SingleCellular cant be mating");
     }
 }
