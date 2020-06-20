@@ -44,8 +44,8 @@ public class Birds extends Animal{
             System.out.println("Can't be migrate.");
     }
     @Override
-    public void move() {
-        System.out.println("Moving to position");
+    public void move(String location) {
+        System.out.println("Moving to   "+location);
     }
 
     @Override

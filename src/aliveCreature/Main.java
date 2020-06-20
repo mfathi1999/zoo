@@ -17,12 +17,7 @@ package aliveCreature;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-	//test
-//        System.out.println("Hello mmad!");
-//        test2 t = new test2();
-//        t.pr();
-//        Emberizidae z1 = new Emberizidae("lemon");
+
 
     }
 }
