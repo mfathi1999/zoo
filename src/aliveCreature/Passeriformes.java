@@ -1,7 +1,7 @@
 package aliveCreature;
 
 public class Passeriformes extends Birds {
-    private int syrinx;
+    private int syrinx; // سوتک
 
     @Override
     public void fly() {

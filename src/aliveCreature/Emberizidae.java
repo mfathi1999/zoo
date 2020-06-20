@@ -1,8 +1,8 @@
 package aliveCreature;
 
 public class Emberizidae extends Passeriformes{
-    private int conicalBeak;
-    private int species;
+    private int conicalBeak; // منقار مخروطی
+    private int species; // گونه
 
     @Override
     public void fly() {

@@ -1,16 +1,16 @@
 package aliveCreature;
 
 public class Birds extends Animal{
-    private int feather;
-    private int tip;
-    private int wing;
-    private int homeohermry;
-    private int gizzard;
-
+    private int feather; // پر
+    private int tip;    //  نوک
+    private int wing;   //  بال
+    private int homeohermry;//خونگرم
+    private int gizzard;//سنگدان
+    //پرواز
     public void fly() {
 
     }
-
+    //تخم گذاری
     public void layingEggs() {
 
     }
@@ -18,7 +18,6 @@ public class Birds extends Animal{
     public void migrate() {
 
     }
-
     @Override
     public void move() {
 
