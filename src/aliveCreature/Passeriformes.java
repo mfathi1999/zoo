@@ -3,8 +3,8 @@ package aliveCreature;
 public class Passeriformes extends Birds {
     int syrinx; // سوتک
 
-    Passeriformes(int feather, int tip, int wing, int homeotHermy, int gizzard, int syrinx) {
-        super(feather, tip, wing, homeotHermy, gizzard);
+    Passeriformes(int feather, int tip, int wing, int homeotHermy, int gizzard, int syrinx , int multiCellular) {
+        super(multiCellular, feather, tip, wing, homeotHermy, gizzard);
         this.syrinx = syrinx;
     }
 

@@ -4,9 +4,10 @@ public class Emberizidae extends Passeriformes{
     int conicalBeak; // منقار مخروطی
     String species; // گونه
 
-    Emberizidae(int feather, int tip, int wing, int homeotHermy, int gizzard, int syrinx, String species) {
-        super(feather, tip, wing, homeotHermy, gizzard, syrinx);
+    Emberizidae(int feather, int tip, int wing, int homeotHermy, int gizzard, int syrinx, String species, int multiCellular,int conicalBeak) {
+        super(multiCellular, feather, tip, wing, homeotHermy, gizzard, syrinx);
         this.species = species;
+        this.conicalBeak = conicalBeak;
     }
 
 //    public Emberizidae(String lemon) {

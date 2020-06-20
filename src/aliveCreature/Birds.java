@@ -7,8 +7,9 @@ public class Birds extends Animal{
     int homeotHermy;//خونگرم
     int gizzard;//سنگدان
 
-    Birds(int feather, int tip, int wing, int homeotHermy, int gizzard)
+    Birds(int feather, int tip, int wing, int homeotHermy, int gizzard, int multiCellular)
     {
+        this.multiCellular = multiCellular;
         this.feather = feather;
         this.tip = tip;
         this.wing = wing;
