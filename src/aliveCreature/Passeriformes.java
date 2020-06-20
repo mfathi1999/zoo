@@ -40,6 +40,12 @@ public class Passeriformes extends Birds {
     }
 
     public void signing() {
+        if(syrinx == 1)
+            System.out.println("singing from Ebi");
+
+        else
+            System.out.println("can't singing");
+
 
     }
 }
