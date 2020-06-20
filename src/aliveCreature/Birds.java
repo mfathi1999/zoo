@@ -1,6 +1,6 @@
 package aliveCreature;
 
-public class Birds {
+public class Birds extends Animal{
     private int feather;
     private int tip;
     private int wing;
@@ -19,4 +19,23 @@ public class Birds {
 
     }
 
+    @Override
+    public void move() {
+
+    }
+
+    @Override
+    public void nutrition() {
+
+    }
+
+    @Override
+    public void breathing() {
+
+    }
+
+    @Override
+    public void mating() {
+
+    }
 }

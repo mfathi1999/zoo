@@ -1,6 +1,6 @@
 package aliveCreature;
 
-public class Emberizidae {
+public class Emberizidae extends Passeriformes{
     private int conicalBeak;
     private int species;
 

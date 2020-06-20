@@ -1,6 +1,6 @@
 package aliveCreature;
 
-public class Passeriformes {
+public class Passeriformes extends Birds {
     private int syrinx;
 
     public void signing() {
